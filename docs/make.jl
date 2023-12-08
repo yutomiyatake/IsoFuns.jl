@@ -14,9 +14,10 @@ makedocs(;
         edit_link="main",
         assets=String[],
     ),
-    pages=[
-        "Home" => "index.md",
-    ],
+    # pages=[
+    #     "Home" => "index.md",
+    # ],
+    pages = ["Home" => "index.md", "Functions" => Any["func/iso.md", "func/neariso.md"],  "examples.md"]
 )
 
 deploydocs(;

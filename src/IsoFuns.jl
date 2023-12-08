@@ -1,5 +1,9 @@
 module IsoFuns
 
-# Write your package code here.
+import SpecialFunctions: lgamma
+
+
+include("iso.jl")
+include("neariso.jl")
 
 end
