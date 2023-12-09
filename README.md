@@ -20,7 +20,7 @@ Run Julia, enter ] to bring up Julia's package manager, and add the IsoFuns.jl p
 
 ```
 julia> ]
-(v1.9) pkg> add IsoFuns
+(v1.9) pkg> add https://github.com/yutomiyatake/IsoFuns.jl
 ```
 
 ## Simple examples
