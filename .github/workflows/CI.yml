@@ -65,7 +65,3 @@ jobs:
             using IsoFuns
             DocMeta.setdocmeta!(IsoFuns, :DocTestSetup, :(using IsoFuns); recursive=true)
             doctest(IsoFuns)'
-      - run: julia --project=docs docs/make.jl
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
