@@ -6,7 +6,7 @@ DocMeta.setdocmeta!(IsoFuns, :DocTestSetup, :(using IsoFuns); recursive=true)
 makedocs(;
     modules=[IsoFuns],
     authors="yutomiyatake <miyatake@cas.cmc.osaka-u.ac.jp> and contributors",
-    repo="https://github.com/yutomiyatake/IsoFuns.jl/blob/{commit}{path}#{line}",
+    # repo="https://github.com/yutomiyatake/IsoFuns.jl.git",
     sitename="IsoFuns.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",

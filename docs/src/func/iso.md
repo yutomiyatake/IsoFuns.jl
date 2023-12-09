@@ -45,7 +45,6 @@ can also be solved by the function ```iso``` or ```iso!```, as the formulation i
 ```math
 \hat{\eta} = \argmin_{\eta_1\leq \dots \leq \eta_n} \sum_{i=1}^n \frac{w_i}{2} (x_i-\eta_i)^2 \quad \text{with} \quad \eta = \mathrm{E}_\theta [x] = \psi ^\prime (\theta).
 ```
-<!-- See [Generalized isotonic regression](../func/iso.md#generalized-isotonic-regression) for the relation between the natural parameter ``\theta_i `` and the expectation parameter ``\eta_i = \mathrm{E}_\theta [x_i] = \psi ^\prime (\theta_i)``. -->
 
 Below, we list four examples of one parameter exponential families.
 For each case, the relation between the natural parameter ``\theta_i`` and the expectation parameter ``\eta_i = \mathrm{E}_\theta [x_i] = \psi ^\prime (\theta_i)`` is specified. 
