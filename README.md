@@ -3,7 +3,7 @@
 
 # Isotonic regression and its generalizations
 
-[IsoFuns.jl](https://yutomiyatake.github.io/IsoFuns.jl/build/func/iso.html) provides basic functions for solving isotonic regression problems:
+[IsoFuns.jl](https://yutomiyatake.github.io/IsoFuns.jl/build/index.html) provides basic functions for solving isotonic regression problems:
 
 + (standard) isotonic regression problem
 + generalized isotonic regression problem
