@@ -43,7 +43,7 @@ the problem
 ```
 can also be solved by the function ```iso``` or ```iso!```, as the formulation is equivalent to
 ```math
-\hat{\eta} = \argmin_{\eta_1\leq \dots \leq \eta_n} \sum_{i=1}^n \frac{w_i}{2} (x_i-\eta_i)^2 \quad \text{with} \quad \eta = \mathrm{E}_\theta [x] = \psi ^\prime (\theta).
+\hat{\eta} = \argmin_{\eta_1\leq \dots \leq \eta_n} \sum_{i=1}^n \frac{w_i}{2} \Big(\frac{x_i}{w_i}-\eta_i\Big)^2 \quad \text{with} \quad \eta = \mathrm{E}_\theta [x] = \psi ^\prime (\theta).
 ```
 
 Below, we list four examples of one parameter exponential families.
